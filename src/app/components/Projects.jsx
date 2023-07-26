@@ -39,7 +39,10 @@ const scrollDown = ()=>{
     behavior: "smooth",
     }) 
 }
-window.addEventListener("scroll", downScroll);
+if (window !== undefined) {
+    window.addEventListener("scroll", downScroll);
+  }
+
 
     return (
         <section id="proyects" className="flex items-center justify-center w-full my-0 xl:my-20">   

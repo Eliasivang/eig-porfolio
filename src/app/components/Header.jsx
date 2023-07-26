@@ -31,8 +31,10 @@ function Header() {
       setFixed(false)
     }
   }
+  if (window !== undefined) {
+    window.addEventListener("scroll", navBar);
+  }
   
-  window.addEventListener("scroll", navBar);
 
   return (
   <header className={fixed ? 'fixed bg-neutral-900 top-0 z-50 flex justify-center w-full h-22 shadow-xl' : 'fixed  top-0 z-50 flex justify-center w-full h-24 ' }>
