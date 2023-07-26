@@ -45,7 +45,7 @@ window.addEventListener("scroll", downScroll);
 
     return (
         <section id="proyects" className="flex items-center justify-center w-full my-0 xl:my-20">   
-            <div className='xl:w-[1300px] flex flex-col items-center justify-center w-full  p-2 sm:p-6 mt-6  font-extralight'>
+            <div className='xl:w-[1300px] flex flex-col items-center justify-center w-full pt-2 sm:pt-6 px-4 mt-6  font-extralight'>
                 <motion.h1 initial ={{x:200} }animate={{x:0}} transition = {{duration:0.6}} className='text-4xl font-bold text-center text-green-400 lg:text-6xl'>PROYECTOS</motion.h1>
                 <AiFillDownCircle onClick = {scrollDown} className={down ? "hidden" : " hidden fixed cursor-pointer bottom-0 z-50  my-16 text-6xl text-white right-0 lg:right-8 animate-bounce "}/>
                 <AiFillUpCircle onClick={scrollTop} className={down ? "cursor-pointer fixed bottom-0 z-50  my-16 text-6xl text-white right-0 lg:right-8 animate-bounce " : "hidden" } />            

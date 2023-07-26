@@ -12,13 +12,12 @@ function Hero() {
  
   return (
     <div className='flex flex-col items-center w-full h-screen '>
-            <div className= 'flex flex-col-reverse items-center justify-evenly xl:w-[1300px] px-6 gap-2 py-36 xl:py-40 h-3/4 sm:flex-row'>
+            <div className= 'flex flex-col-reverse items-center justify-evenly xl:w-[1300px] px-4 gap-2 py-36 xl:py-40 h-3/4 sm:flex-row'>
                     <motion.div 
                     initial ={{x:-200} }
                     animate={{x:0}} 
                     transition = {{duration:0.8}}  
-                    className='2xl:w-2/3'>
-                          
+                    className='2xl:w-2/3'>       
                             <p className='w-full text-6xl font-extrabold text-white lg:text-7xl '>
                             <Typewriter 
                             words = {["Elias Gonzalez"]}

@@ -1,5 +1,6 @@
+import Head from 'next/head'
 import './globals.css'
-import { Dosis, Unbounded } from 'next/font/google'
+import { Unbounded } from 'next/font/google'
 
 const font = Unbounded({ subsets: ['latin'], weight: ['400',"300","200","700","200","800"]})
 
@@ -8,6 +9,9 @@ const font = Unbounded({ subsets: ['latin'], weight: ['400',"300","200","700","2
 export const metadata = {
   title: 'EIG',
   description: 'EIG Portfolio',
+  icons: {
+  icon: ['/favicon.ico?v=4']
+  }
 }
 
 export default function RootLayout({ children }) {

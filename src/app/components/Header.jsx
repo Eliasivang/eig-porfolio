@@ -38,7 +38,7 @@ function Header() {
 
   return (
   <header className={fixed ? 'fixed bg-neutral-900 top-0 z-50 flex justify-center w-full h-22 shadow-xl' : 'fixed  top-0 z-50 flex justify-center w-full h-24 ' }>
-      <div  className=" xl:w-[1300px] w-full px-4">
+      <div  className=" xl:w-[1300px] w-full  px-4">
           <motion.div  whileTap = {{scale :1}} transition={{duration:0.5}} className="flex items-center justify-between w-full py-3" >   
               <motion.div whileHover={{scale: 1.05}} whileTap = {{scale :0.9}} className='w-24 sm:w-auto'>
                   <a href="#">
