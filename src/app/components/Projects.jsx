@@ -39,9 +39,8 @@ const scrollDown = ()=>{
     behavior: "smooth",
     }) 
 }
-if (typeof window !== 'undefined') {
-   const scrolling =  window.addEventListener("scroll", downScroll);
-  }
+window.addEventListener("scroll", downScroll);
+
 
 
     return (
