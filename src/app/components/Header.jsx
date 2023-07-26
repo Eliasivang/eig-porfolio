@@ -55,7 +55,7 @@ function Header() {
                   className='text-center cursor-pointer lg:inline-block' 
                   whileHover={{scale: 1.1}} 
                   whileTap = {{scale :0.9}}>
-                  <a href='#portfolio'>
+                  <a href='#proyects'>
                     PROYECTOS
                   </a>
                   </motion.li>
