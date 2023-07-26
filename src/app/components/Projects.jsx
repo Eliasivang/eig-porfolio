@@ -40,7 +40,7 @@ const scrollDown = ()=>{
     }) 
 }
 if (typeof window !== 'undefined') {
-    window.addEventListener("scroll", downScroll);
+   const scrolling =  window.addEventListener("scroll", downScroll);
   }
 
 
