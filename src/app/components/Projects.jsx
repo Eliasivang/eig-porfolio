@@ -63,8 +63,8 @@ window.addEventListener("scroll", downScroll);
                         <Image className="shadow-2xl shadow-black rounded-xl" alt={proyects.title}  src={proyects.image}/>
                     </div>
                     <div className="flex flex-col w-full gap-5 p-1 border-t-4 border-violet-800 ">
-                        <h1 className='mt-5 text-3xl font-light text-center text-green-400 lg:text-3xl'>{proyects.title}</h1>
-                        <p className='text-center text-white text-md lg:text-lg'>{proyects.description}</p>
+                        <h1 className='mt-5 text-xl font-light text-center text-green-400 lg:text-3xl'>{proyects.title}</h1>
+                        <p className='text-sm text-center text-white lg:text-lg'>{proyects.description}</p>
                         <div className='flex justify-center gap-4 text-center '>
                             <button 
                             className='flex items-center justify-center h-12 gap-2 p-1 text-sm font-bold text-white bg-green-400 rounded w-36 hover:text-white hover:bg-violet-900'>
