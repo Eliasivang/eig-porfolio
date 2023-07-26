@@ -8,7 +8,8 @@ import Footer from "./components/Footer"
 import { Contact } from "./components/Contact"
 import dynamic from "next/dynamic"
 
-const DynamicHeader = dynamic (()=> import ('./components/Header'),{ssr:false});  
+const DynamicHeader = dynamic (()=> import ('./components/Header'),{ssr:false});
+const DynamicProjects = dynamic (()=> import ('./components/Projects'),{ssr:false});
 
 export default function Home() {
     
@@ -17,7 +18,7 @@ export default function Home() {
         <DynamicHeader/>
         <Hero/>
         <AboutMe/>
-        <Proyects/>
+        <DynamicProjects/>
         <Contact/>
         <Footer/>
         
