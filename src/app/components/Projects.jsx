@@ -45,10 +45,10 @@ window.addEventListener("scroll", downScroll);
 
     return (
         <section id="proyects" className="flex items-center justify-center w-full my-0 xl:my-20">   
-            <div className='xl:w-[1300px] flex flex-col items-center justify-center w-full pt-2 sm:pt-6 px-4 mt-6  font-extralight'>
+            <div className='xl:w-[1300px] flex flex-col items-center justify-center w-full pt-2 sm:pt-6 px-2 mt-6  font-extralight'>
                 <motion.h1 initial ={{x:200} }animate={{x:0}} transition = {{duration:0.6}} className='text-4xl font-bold text-center text-green-400 lg:text-6xl'>PROYECTOS</motion.h1>
                 <AiFillDownCircle onClick = {scrollDown} className={down ? "hidden" : " hidden fixed cursor-pointer bottom-0 z-50  my-16 text-6xl text-white right-0 lg:right-8 animate-bounce "}/>
-                <AiFillUpCircle onClick={scrollTop} className={down ? "cursor-pointer fixed bottom-0 z-50  my-16 text-6xl text-white right-0 lg:right-8 animate-bounce " : "hidden" } />            
+                <AiFillUpCircle onClick={scrollTop} className={down ? "cursor-pointer fixed bottom-0 z-50  my-16 text-6xl text-white right-0 lg:right-8 animate-bounce " : "hidden" } />         
                 <div
                 className='grid w-full grid-cols-1 gap-10 my-8 xl:my-20 xl:grid-cols-2 font-poppins'>
                 {proyects.slice(0,last).map((proyects)=>(
@@ -58,7 +58,7 @@ window.addEventListener("scroll", downScroll);
                 transition= {{duration: 0.7}} 
                 whileInView={{opacity: 1, y:0}} 
                 viewport= {{once:true}}
-                className="grid items-center justify-center w-full grid-cols-1 gap-3 p-5 shadow-2xl rounded-3xl bg-neutral-900 shadow-black">
+                className="grid items-center justify-center w-full grid-cols-1 gap-3 p-2 shadow-2xl rounded-3xl bg-neutral-900 shadow-black">
                     <div className="flex justify-center w-full ">
                         <Image className="shadow-2xl shadow-black rounded-xl" alt={proyects.title}  src={proyects.image}/>
                     </div>
