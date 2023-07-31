@@ -68,7 +68,7 @@ window.addEventListener("scroll", downScroll);
                         <div className='flex justify-center gap-4 text-center '>
                             <button 
                             className='flex items-center justify-center h-12 gap-2 p-1 text-sm font-bold text-white bg-green-400 rounded w-36 hover:text-white hover:bg-violet-900'>
-                                <a className="flex items-center justify-center gap-1"  target="_blank"  href={proyects.urlDeploy}>
+                                <a className="flex items-center w-ful;l h-full justify-center gap-1"  target="_blank"  href={proyects.urlDeploy}>
                                     DEPLOY
                                     <span className="mb-[4px]">
                                         <HiOutlineExternalLink size={23}/>
@@ -77,7 +77,7 @@ window.addEventListener("scroll", downScroll);
                             </button>
                             <button 
                             className='flex items-center justify-center h-12 gap-2 text-sm font-bold text-white bg-green-400 rounded hover:text-white w-36 hover:bg-violet-900'>
-                                <a className="flex items-center justify-center gap-1" target="_blank"  href={proyects.urlCode}>
+                                <a className="flex items-center justify-center w-full h-full gap-1" target="_blank"  href={proyects.urlCode}>
                                     REPO
                                     <span className="mb-[2px]">
                                         <BsFileEarmarkCode size={22}/>
