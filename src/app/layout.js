@@ -1,6 +1,5 @@
-import Head from 'next/head'
 import './globals.css'
-import { Unbounded } from 'next/font/google'
+import { Outfit, Unbounded } from 'next/font/google'
 
 const font = Unbounded({ subsets: ['latin'], weight: ['400',"300","200","700","200","800"]})
 

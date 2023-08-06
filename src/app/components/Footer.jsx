@@ -14,7 +14,7 @@ function Footer() {
             <a target='_blank' href="https://github.com/Eliasivang"><FaGithub size={40} className='text-4xl text-green-400 '/></a>
         </div>
         <div className='grid items-center text-center'>
-            <p className='text-xs text-white font-extralight lg:text-lg'>© 2023 Creado por Elias Gonzalez con Next JS y TailwindCSS</p>
+            <p className='text-xs text-white font-extralight lg:text-[16px]'>© 2023 Creado por Elias Gonzalez con Next JS y TailwindCSS</p>
         </div>
     </motion.div>
   )

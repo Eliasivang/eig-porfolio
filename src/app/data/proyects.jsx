@@ -5,12 +5,20 @@ import crocheteando from "../assets/crocheteando.png"
 import controlGastos from "../assets/gastos.png"
 import weatherApp from "../assets/weatherApp.png"
 import tictactoe from "../assets/tictactoe.png"
+import {BiLogoTailwindCss} from 'react-icons/bi'
+import {SiNextdotjs} from 'react-icons/si';
+import {BiLogoReact} from 'react-icons/bi';
+import {PiFramerLogoFill} from 'react-icons/pi';
+import {BiLogoJavascript} from 'react-icons/bi';
+import {SiMui} from 'react-icons/si';
+import {SiAxios} from 'react-icons/si';
+import {SiTypescript} from 'react-icons/si'
 
 export const proyects = [{
     title: "DEV FINDER",
     image: devFinder,
     description: "Usamos la API de GitHub para buscar perfiles y obtener su información, tal como redes , cantidad de repos, seguidores, etc. Se hace uso de context API y cuenta con Dark Mode.",
-    tecnologies: "",
+    tecnologies:[<BiLogoTailwindCss />,<SiNextdotjs />],
     urlCode:"https://github.com/Eliasivang/DevFinder",
     urlDeploy:"https://dev-finder-8usvif0kg-eliasivang.vercel.app/"
 },
@@ -18,7 +26,7 @@ export const proyects = [{
     title: "CROCHETEANDO",
     image: crocheteando,
     description: "Crocheteando es una página pensada para que siga creciendo, a este punto cuenta con un carrito de compras, paginación y buscador de articulos.Se hace uso de Context API y Local Storage. ",
-    tecnologies: "",
+    tecnologies:[<BiLogoReact />,<BiLogoTailwindCss />,<PiFramerLogoFill />] ,
     urlCode:"https://github.com/Eliasivang/crocheteando-cart",
     urlDeploy:"https://crocheteando.vercel.app/"
 },
@@ -26,7 +34,7 @@ export const proyects = [{
     title: "MOVIES WIKI",
     image: moviesWiki,
     description: "Página para buscar películas y obtener los detalles de las mismas, tal como fecha de estreno, director, etc. Cuenta con un scroll infinito y debounce.",
-    tecnologies: "",
+    tecnologies: [<BiLogoReact />,<BiLogoTailwindCss />],
     urlCode:"https://github.com/Eliasivang/MoviesWiki",
     urlDeploy:"https://movies-wiki-lzq2u7ezh-eliasivang.vercel.app/"
 },
@@ -34,7 +42,7 @@ export const proyects = [{
     title: "TASK LIST",
     image:  taskList,
     description: "Web donde podremos listar tareas, marcarlas como completadas o eliminarlas. Se hace uso de Local Storage para la persistencia de datos en el navegador.",
-    tecnologies: "",
+    tecnologies: [<BiLogoReact />,<BiLogoTailwindCss />],
     urlCode:"https://github.com/Eliasivang/Task-list-",
     urlDeploy:"https://task-list-eig.netlify.app/"
 },
@@ -42,7 +50,7 @@ export const proyects = [{
     title: "TIC TAC TOE",
     image: tictactoe,
     description:"En esta web podremos jugar al clasico tic tac toe, tendremos la opcion de resetear la partida, visualizar los turnos y cuenta con mensajes para el jugador/es que ganen la partida",
-    tecnologies:"",
+    tecnologies:[<SiNextdotjs />,<SiTypescript />,<BiLogoTailwindCss />],
     urlCode: "https://github.com/Eliasivang/tic-tac-toe",
     urlDeploy: "https://tic-tac-toe-eta-eight.vercel.app/"
     
@@ -51,7 +59,7 @@ export const proyects = [{
     title: "CONTROL DE GASTOS",
     image: controlGastos  ,
     description: "En base a un presupuesto inicial ingresado , le iremos restando los gastos ingresados por el usuario y mostrando en pantalla el restante capital del inicial.",
-    tecnologies: "",
+    tecnologies: [<BiLogoJavascript />,<BiLogoTailwindCss />],
     urlCode:"",
     urlDeploy:""
 },
@@ -59,7 +67,7 @@ export const proyects = [{
     title: "WEATHER APP",
     image:  weatherApp,
     description: "Página simple con el fin de consultar el clima de cualquier parte del mundo mediante Weather API y Axios.",
-    tecnologies: "",
+    tecnologies: [<BiLogoReact />,<SiMui />,<SiAxios />],
     urlCode:"https://github.com/Eliasivang/Weather-App",
     urlDeploy:"https://eig-weather-app.netlify.app/"
 }

@@ -58,13 +58,16 @@ window.addEventListener("scroll", downScroll);
                 transition= {{duration: 0.7}} 
                 whileInView={{opacity: 1, y:0}} 
                 viewport= {{once:true}}
-                className="grid items-center justify-center w-full grid-cols-1 gap-3 p-2 shadow-2xl rounded-3xl bg-neutral-900 shadow-black">
-                    <div className="flex justify-center w-full ">
-                        <Image className="shadow-2xl shadow-black rounded-xl" alt={proyects.title}  src={proyects.image}/>
+                className="grid items-center justify-center w-full grid-cols-1 gap-3 p-4 shadow-2xl rounded-3xl bg-neutral-900 shadow-black">
+                    <div className="relative flex justify-center w-full ">
+                        <Image className=" rounded-xl" alt={proyects.title}  src={proyects.image}/>
+                        <div className="absolute bottom-0 left-0 flex gap-2 p-3 m-1 bg-black rounded md:m-3 bg-opacity-80" >{proyects.tecnologies.map((tec)=>(
+                            <p className="text-xl text-green-400 ">{tec}</p>
+                        ))}</div>
                     </div>
                     <div className="flex flex-col w-full gap-5 p-1 border-t-4 border-violet-800 ">
                         <h1 className='mt-5 text-xl font-light text-center text-green-400 lg:text-3xl'>{proyects.title}</h1>
-                        <p className='text-sm text-center text-white lg:text-lg'>{proyects.description}</p>
+                        <p className='text-sm text-center text-white lg:text-[16px]'>{proyects.description}</p>
                         <div className='flex justify-center gap-4 text-center '>
                             <button 
                             className='flex items-center justify-center h-12 gap-2 p-1 text-sm font-bold text-white bg-green-400 rounded w-36 hover:text-white hover:bg-violet-900'>
