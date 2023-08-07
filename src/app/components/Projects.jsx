@@ -17,7 +17,7 @@ const [showAll,setShowAll] = useState(false);
 const [last,setLast] = useState(4);
 
 const handleClick =()=>{
-    setLast(7)
+    setLast(8)
     setShowAll(true)
 }
 const downScroll = ()=>{
