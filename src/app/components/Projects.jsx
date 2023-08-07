@@ -61,8 +61,13 @@ window.addEventListener("scroll", downScroll);
                 className="grid items-center justify-center w-full grid-cols-1 gap-3 p-4 shadow-2xl rounded-3xl bg-neutral-900 shadow-black">
                     <div className="relative flex justify-center w-full ">
                         <Image className=" rounded-xl" alt={proyects.title}  src={proyects.image}/>
-                        <div className="absolute bottom-0 left-0 flex gap-2 p-3 m-1 bg-black rounded md:m-3 bg-opacity-80" >{proyects.tecnologies.map((tec)=>(
-                            <p key={Math.random()} className="text-xltext-green-400 ">{tec}</p>
+                        <div className="absolute bottom-0 left-0 flex gap-2 p-3 m-1 bg-black rounded md:m-3 bg-opacity-80" >
+                            {proyects.tecnologies.map((tec)=>(
+                            <p 
+                            key={Math.random()} 
+                            className="text-xl text-green-400 ">
+                                {tec}
+                            </p>
                         ))}</div>
                     </div>
                     <div className="flex flex-col w-full gap-5 p-1 border-t-4 border-violet-800 ">
