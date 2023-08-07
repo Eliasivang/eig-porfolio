@@ -11,10 +11,10 @@ function AboutMe() {
   return (
     <section className='flex justify-center w-full px-2'>    
     <div className=' lg:w-[1300px] w-full  flex flex-col '>
-        <h1 className='text-4xl font-bold text-center text-green-400 lg:text-6xl'>SOBRE MI </h1>
+        <h1 className='text-4xl font-bold text-center text-green-400 lg:text-6xl'>SOBRE MI</h1>
         <motion.div 
         initial = {{y:200, opacity:0}} transition= {{duration: 0.7}} whileInView={{opacity: 1, y:0}} viewport= {{once:true}} 
-        className='lg:flex lg:items-center font-poppins lg:justify-center grid justify-items-center w-full h-auto gap-6 m my-10 lg:my-20 lg:pb-0  lg:px-4 py-4 shadow-black rounded-2xl bg-neutral-900 lg:h-[340px]  shadow-2xl'>
+        className='lg:flex lg:items-center font-poppins lg:justify-center grid justify-items-center w-full h-auto gap-6 px-2 my-10 lg:my-20 lg:pb-0  lg:px-4 py-4 shadow-black rounded-2xl bg-neutral-900 lg:h-[340px]  shadow-2xl'>
             <div className='flex w-full justify-center  items-center sm:w-[490px] overflow-hidden rounded-full lg:hidden '>
                 <Image className='rounded-full hover:scale-110 transition-all duration-500 sm:w-[450px]' src={meImg1} alt="me" />
             </div>

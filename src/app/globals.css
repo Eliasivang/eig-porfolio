@@ -6,7 +6,7 @@
 
 body{
   background-image: url(../app/assets/fondo57.jpg);
-  background-position: center;
+
   background-attachment:fixed ;
   background-size: cover;
   padding-top: 96px;

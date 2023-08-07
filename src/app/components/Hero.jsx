@@ -18,23 +18,23 @@ function Hero() {
                     animate={{x:0}} 
                     transition = {{duration:0.8}}  
                     className='2xl:w-2/3'>       
-                            <p className='w-full text-5xl font-extrabold text-white lg:text-6xl '>
+                            <p className='w-full text-5xl font-extrabold text-white lg:text-[80px] '>
                             <Typewriter 
-                            words = {["ELIAS GONZALEZ"]}
+                            words = {["Elias Gonzalez"]}
                             loop= {1}    
                             />
                 
                             {/* <span><Cursor></Cursor></span><br /> */}
                             </p>
-                            <p className='w-full text-4xl font-extrabold text-green-400 lg:text-5xl'>
+                            <p className='w-full text-4xl font-extrabold text-green-400 lg:text-[70px]'>
                             <Typewriter 
-                            words = {["FRONTEND DEVELOPER"]}
+                            words = {["FrontEnd Developer"]}
                             loop= {1}  
                             />
                             </p>
-                            <div className='flex gap-1'>
+                            <div className='flex gap-1 mt-3'>
                             <CiLocationOn size={25} className='text-white'/>
-                            <p className='text-xl text-white font-poppins font-extralight'>
+                            <p className='text-[20px] text-white font-poppins  font-extralight'>
                             <Typewriter 
                             words = {["Buenos Aires, Argentina"]}
                             loop= {1}  

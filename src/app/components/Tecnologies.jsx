@@ -10,6 +10,7 @@ import { SiTypescript, SiCplusplus,  } from "react-icons/si";
 import {TbBrandNextjs} from "react-icons/tb";
 import { SiFramer } from "react-icons/si";
 import { FaGit } from "react-icons/fa";
+import {SiMui} from 'react-icons/si';
 
 
 
@@ -35,8 +36,11 @@ function Tecnologies() {
                 <a id='git-logo'><FaGit className='text-6xl text-green-400 hover:text-violet-800'/></a>
                 <Tooltip anchorId="tailwind-logo" content="Tailwind" style={{ color: 'rgb(0, 116, 255)'}} />
                 <a id='tailwind-logo'><SiTailwindcss className='text-6xl text-green-400 hover:text-violet-800'/></a>
+                <Tooltip anchorId="material-ui" content="Material UI" style={{ color: '#0000FF' }}/>
+                <a id='material-ui'><SiMui className='text-5xl text-green-400 hover:text-violet-800'/></a>  
                 <Tooltip anchorId="framer-logo" content="Framer Motion" style={{ color: 'rgb(250,49,162)' }}/>
-                <a id='framer-logo'><SiFramer className='text-5xl text-green-400 hover:text-violet-800'/></a>      
+                <a id='framer-logo'><SiFramer className='text-5xl text-green-400 hover:text-violet-800'/></a>
+               
           </div>
     </>
   )

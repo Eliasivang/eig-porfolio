@@ -1,4 +1,5 @@
 import taskList from "../assets/tasks.png"
+import linkspot from "../assets/linkspot.png"
 import moviesWiki from "../assets/mb.png"
 import devFinder from "../assets/definder.png"
 import crocheteando from "../assets/crocheteando.png"
@@ -13,6 +14,7 @@ import {BiLogoJavascript} from 'react-icons/bi';
 import {SiMui} from 'react-icons/si';
 import {SiAxios} from 'react-icons/si';
 import {SiTypescript} from 'react-icons/si'
+import {BiLogoFirebase} from 'react-icons/bi'
 
 export const proyects = [{
     title: "DEV FINDER",
@@ -31,20 +33,12 @@ export const proyects = [{
     urlDeploy:"https://crocheteando.vercel.app/"
 },
 {
-    title: "MOVIES WIKI",
-    image: moviesWiki,
-    description: "Página para buscar películas y obtener los detalles de las mismas, tal como fecha de estreno, director, etc. Cuenta con un scroll infinito y debounce.",
-    tecnologies: [<BiLogoReact key={Math.random()} />,<BiLogoTailwindCss key={Math.random()} />],
-    urlCode:"https://github.com/Eliasivang/MoviesWiki",
-    urlDeploy:"https://movies-wiki-lzq2u7ezh-eliasivang.vercel.app/"
-},
-{
-    title: "TASK LIST",
-    image:  taskList,
-    description: "Web donde podremos listar tareas, marcarlas como completadas o eliminarlas. Se hace uso de Local Storage para la persistencia de datos en el navegador.",
-    tecnologies: [<BiLogoReact key={Math.random()} />,<BiLogoTailwindCss  key={Math.random()}/>],
-    urlCode:"https://github.com/Eliasivang/Task-list-",
-    urlDeploy:"https://task-list-eig.netlify.app/"
+    title: "LINKSPOT",
+    image:  linkspot,
+    description: "Pagina en donde podras crear,actualizar o borrar links para posteriormente mostrarlos en un perfil público, al estilo linktree. Se hace uso de Firebase para la base de datos y autenticación del usuario.",
+    tecnologies: [<SiNextdotjs key={Math.random()} />,<BiLogoFirebase key={Math.random()}/>,,<BiLogoTailwindCss key={Math.random()}/>],
+    urlCode:"https://github.com/Eliasivang/link-spot",
+    urlDeploy:"https://link-spot.vercel.app/"
 },
 {
     title: "TIC TAC TOE",
@@ -54,6 +48,21 @@ export const proyects = [{
     urlCode: "https://github.com/Eliasivang/tic-tac-toe",
     urlDeploy: "https://tic-tac-toe-eta-eight.vercel.app/"
     
+},
+{
+    title: "MOVIES WIKI",
+    image: moviesWiki,
+    description: "Página para buscar películas y obtener los detalles de las mismas, tal como fecha de estreno, director, etc. Cuenta con un scroll infinito y debounce.",
+    tecnologies: [<BiLogoReact key={Math.random()} />,<BiLogoTailwindCss key={Math.random()} />],
+    urlCode:"https://github.com/Eliasivang/MoviesWiki",
+    urlDeploy:"https://movies-wiki-lzq2u7ezh-eliasivang.vercel.app/"
+},
+{
+    image:  taskList,
+    description: "Web donde podremos listar tareas, marcarlas como completadas o eliminarlas. Se hace uso de Local Storage para la persistencia de datos en el navegador.",
+    tecnologies: [<BiLogoReact key={Math.random()} />,<BiLogoTailwindCss  key={Math.random()}/>],
+    urlCode:"https://github.com/Eliasivang/Task-list-",
+    urlDeploy:"https://task-list-eig.netlify.app/"
 },
 {
     title: "CONTROL DE GASTOS",
@@ -70,5 +79,5 @@ export const proyects = [{
     tecnologies: [<BiLogoReact key={Math.random()} />,<SiMui key={Math.random()} />,<SiAxios key={Math.random()} />],
     urlCode:"https://github.com/Eliasivang/Weather-App",
     urlDeploy:"https://eig-weather-app.netlify.app/"
-}
+},
 ]

@@ -5,7 +5,7 @@ import { useState } from 'react';
 import {BiMenu} from 'react-icons/bi'
 import {IoClose} from 'react-icons/io5'
 import { IconContext } from "react-icons";
-import logo from '../assets/logov.png'
+import logo from '../assets/eigg.png'
 import Menu from './Menu';
 
 
@@ -37,12 +37,12 @@ function Header() {
   
 
   return (
-  <header className={fixed ? 'fixed bg-neutral-900 top-0 z-50 flex justify-center w-full h-22 shadow-xl' : 'fixed  top-0 z-50 flex justify-center w-full h-24 ' }>
+  <header className={fixed ? 'fixed bg-neutral-900 top-0 z-50 flex justify-center w-full  shadow-xl' : 'fixed  top-0 z-50 flex justify-center w-full h-20 ' }>
       <div  className=" xl:w-[1300px] w-full  px-4">
-          <motion.div  whileTap = {{scale :1}} transition={{duration:0.5}} className="flex items-center justify-between w-full py-3" >   
+          <motion.div  whileTap = {{scale :1}} transition={{duration:0.5}} className="flex items-center justify-between w-full py-1" >   
               <motion.div whileHover={{scale: 1.05}} whileTap = {{scale :0.9}} className='w-24 sm:w-auto'>
                   <a href="#">
-                      <Image src={logo} alt="logo" className='xl:w-[67px] w-[60px] cursor-pointer'/>
+                      <Image src={logo} alt="logo" className='xl:w-[150px] w-[128px]  p-2 cursor-pointer' />
                   </a>
               </motion.div>
               <IconContext.Provider value={{size:45}}>
