@@ -64,14 +64,14 @@ export const proyects = [{
     urlCode:"https://github.com/Eliasivang/Task-list-",
     urlDeploy:"https://task-list-eig.netlify.app/"
 },
-{
+/* {
     title: "CONTROL DE GASTOS",
     image: controlGastos  ,
     description: "En base a un presupuesto inicial ingresado , le iremos restando los gastos ingresados por el usuario y mostrando en pantalla el restante capital del inicial.",
     tecnologies: [<BiLogoJavascript key={Math.random()} />,<BiLogoTailwindCss key={Math.random()} />],
     urlCode:"",
     urlDeploy:""
-},
+}, */
 {
     title: "WEATHER APP",
     image:  weatherApp,
