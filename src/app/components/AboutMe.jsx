@@ -30,7 +30,7 @@ function AboutMe() {
             <Image className='rounded-full  hover:scale-110 transition-all duration-500 w-[450px]' src={meImg1} alt="me" />
         </div> 
         <div className='flex flex-col items-center justify-center w-full h-full gap-10 lg:gap-8 lg:w-1/3'>
-          <p className='text-center text-white font-extralight lg:text-lg text-md'>Tecnologias que utilizo tanto en mis proyectos personales como en la universidad:</p>
+          <p className='text-center text-white font-extralight lg:text-lg text-md'>Tecnologías que utilizo tanto en mis proyectos personales como en la universidad:</p>
           <Tecnologies/>
         </div>
       </motion.div>

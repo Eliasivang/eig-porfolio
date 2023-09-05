@@ -5,7 +5,7 @@ import {AiOutlineTwitter} from 'react-icons/ai'
 
 function SideSocials() {
   return (
-    <div className='fixed left-0 hidden bg-green-400 shadow-2xl xl:block shadow-black rounded-tr-xl rounded-br-xl top-96 w-fit'>
+    <div className='fixed left-0 hidden bg-green-400 shadow-2xl xl:block shadow-black rounded-tr-xl rounded-br-xl top-1/2 w-fit'>
         <ul>
             <li className='p-2 m-2 rounded-xl hover:bg-white hover:text-black'>
                 <a target="_blank" href="https://www.linkedin.com/in/elias-gonzalez-043291201/"> <FaLinkedinIn size={20}/> </a>
@@ -13,9 +13,9 @@ function SideSocials() {
             <li className='p-2 m-2 rounded-xl hover:bg-white hover:text-black'>
                 <a target="_blank" href="https://github.com/Eliasivang"><FiGithub size={20}/></a>
             </li>
-            <li className='p-2 m-2 rounded-xl hover:bg-white hover:text-black'>
+  {/*           <li className='p-2 m-2 rounded-xl hover:bg-white hover:text-black'>
                 <a target="_blank" href="https://twitter.com/EliasIvanG"><AiOutlineTwitter size={20}/></a>
-            </li>
+            </li> */}
         </ul>
     </div>
   )

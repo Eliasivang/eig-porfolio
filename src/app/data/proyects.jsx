@@ -35,7 +35,7 @@ export const proyects = [{
 {
     title: "LINKSPOT",
     image:  linkspot,
-    description: "Pagina en donde podras crear,actualizar o borrar links para posteriormente mostrarlos en un perfil público, al estilo linktree. Se hace uso de Firebase para la base de datos y autenticación del usuario.",
+    description: "Página en donde podrás crear,actualizar o borrar links para posteriormente mostrarlos en un perfil público, al estilo linktree. Se hace uso de Firebase para la base de datos y autenticación del usuario.",
     tecnologies: [<SiNextdotjs key={Math.random()} />,<BiLogoFirebase key={Math.random()}/>,,<BiLogoTailwindCss key={Math.random()}/>],
     urlCode:"https://github.com/Eliasivang/link-spot",
     urlDeploy:"https://link-spot.vercel.app/"
@@ -43,7 +43,7 @@ export const proyects = [{
 {
     title: "TIC TAC TOE",
     image: tictactoe,
-    description:"En esta web podremos jugar al clasico tic tac toe, tendremos la opcion de resetear la partida, visualizar los turnos y cuenta con mensajes para el jugador/es que ganen la partida",
+    description:"En esta web podremos jugar al clásico tic tac toe, tendremos la opción de resetear la partida, visualizar los turnos y cuenta con mensajes para el jugador/es que ganen la partida",
     tecnologies:[<SiNextdotjs key={Math.random()} />,<SiTypescript key={Math.random()} />,<BiLogoTailwindCss key={Math.random()} />],
     urlCode: "https://github.com/Eliasivang/tic-tac-toe",
     urlDeploy: "https://tic-tac-toe-eta-eight.vercel.app/"
