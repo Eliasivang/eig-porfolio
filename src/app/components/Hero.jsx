@@ -20,7 +20,7 @@ function Hero() {
                     className='2xl:w-2/3'>       
                             <p className='w-full text-5xl font-extrabold text-white lg:text-[80px] '>
                             <Typewriter 
-                            words = {["Elias Gonzalez"]}
+                            words = {["Elías González"]}
                             loop= {1}    
                             />
                 

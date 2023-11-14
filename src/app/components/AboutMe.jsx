@@ -19,9 +19,9 @@ function AboutMe() {
                 <Image className='rounded-full hover:scale-110 transition-all duration-500 sm:w-[450px]' src={meImg1} alt="me" />
             </div>
             <div className='flex flex-col items-center justify-center h-full gap-6 lg:gap-7 lg:w-1/3'>
-                <p className='p-1 text-sm text-center text-white font-extralight lg:text-lg'>Estudiante de sistemas en la Unviersidad Tecnológica Nacional, autodidacta y estusiasta por el desarrollo web. Motivado a seguir sumando conocimientos para aplicarlos en el entorno profesional.</p>
+                <p className='p-1 text-sm text-center text-white font-extralight lg:text-lg'>Estudiante de sistemas en la Universidad Tecnológica Nacional, autodidacta y estusiasta por el desarrollo web. Motivado a seguir sumando conocimientos para aplicarlos en el entorno profesional.</p>
                 <div className='flex items-center justify-center w-full' >
-                    <a target='_blank' href="https://drive.google.com/file/d/1duTbQTcmZfUAYbOSDSvi-Ph1NzX7cA8d/view?usp=sharing">
+                    <a target='_blank' href="https://drive.google.com/file/d/1R5dvyLYtTksK5Pwk9MOxq3e4bAw6h4C_/view?usp=sharing">
                         <button className='p-3 font-bold text-center text-white bg-green-400 rounded text-md w-38 h-14 lg:text-sm hover:shadow-xl hover:text-white hover:shadow-black hover:bg-violet-900 font-bebas '> DESCARGAR CV</button>
                     </a>   
                 </div>
